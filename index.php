@@ -25,12 +25,12 @@ $result = mysqli_query($conn, $query);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <style>
         :root {
-            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --primary-gradient: linear-gradient(135deg, #E36414 0%, #FB8B24 100%);
             --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
         }
         
         body { 
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background: #FAF9F6;
             min-height: 100vh;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
@@ -72,12 +72,12 @@ $result = mysqli_query($conn, $query);
             padding: 10px 24px;
             border-radius: 25px;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 4px 15px rgba(227, 100, 20, 0.4);
         }
         
         .btn-gradient:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+            box-shadow: 0 6px 20px rgba(227, 100, 20, 0.6);
             color: white;
         }
         
@@ -87,7 +87,7 @@ $result = mysqli_query($conn, $query);
             padding: 2.5rem;
             margin-bottom: 2rem;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            border-left: 5px solid #667eea;
+            border-left: 5px solid #E36414;
         }
         
         .page-header h2 {
@@ -145,7 +145,7 @@ $result = mysqli_query($conn, $query);
         
         .meta-item i {
             margin-right: 6px;
-            color: #667eea;
+            color: #E36414;
         }
         
         .post-content {
@@ -179,7 +179,7 @@ $result = mysqli_query($conn, $query);
         }
         
         .user-badge {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #E36414 0%, #FB8B24 100%);
             color: white;
             padding: 8px 20px;
             border-radius: 25px;

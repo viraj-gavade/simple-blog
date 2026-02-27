@@ -77,12 +77,12 @@ if (isset($_POST['signup'])) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <style>
         :root {
-            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --primary-gradient: linear-gradient(135deg, #E36414 0%, #FB8B24 100%);
             --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
         }
         
         body { 
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #E36414 0%, #FB8B24 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -210,8 +210,8 @@ if (isset($_POST['signup'])) {
         }
         
         .form-control:focus {
-            border-color: #667eea;
-            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+            border-color: #E36414;
+            box-shadow: 0 0 0 4px rgba(227, 100, 20, 0.1);
         }
         
         .input-icon {
@@ -240,12 +240,12 @@ if (isset($_POST['signup'])) {
             width: 100%;
             font-size: 1.05rem;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 4px 15px rgba(227, 100, 20, 0.4);
         }
         
         .btn-auth:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+            box-shadow: 0 6px 20px rgba(227, 100, 20, 0.6);
         }
         
         .back-link {

@@ -52,11 +52,11 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <style>
         :root {
-            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --primary-gradient: linear-gradient(135deg, #E36414 0%, #FB8B24 100%);
         }
         
         body { 
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background: #FAF9F6;
             min-height: 100vh;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
@@ -91,7 +91,7 @@ if (isset($_POST['submit'])) {
         }
         
         .user-badge {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #E36414 0%, #FB8B24 100%);
             color: white;
             padding: 8px 20px;
             border-radius: 25px;
@@ -152,8 +152,8 @@ if (isset($_POST['submit'])) {
         }
         
         .form-control:focus {
-            border-color: #667eea;
-            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+            border-color: #E36414;
+            box-shadow: 0 0 0 4px rgba(227, 100, 20, 0.1);
         }
         
         textarea.form-control {
@@ -178,7 +178,7 @@ if (isset($_POST['submit'])) {
             border-radius: 12px;
             font-size: 1.05rem;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 4px 15px rgba(227, 100, 20, 0.4);
             display: inline-flex;
             align-items: center;
             gap: 10px;
@@ -186,7 +186,7 @@ if (isset($_POST['submit'])) {
         
         .btn-gradient:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+            box-shadow: 0 6px 20px rgba(227, 100, 20, 0.6);
             color: white;
         }
         
@@ -245,7 +245,7 @@ if (isset($_POST['submit'])) {
         }
         
         .writing-tips {
-            background: linear-gradient(135deg, #667eea10 0%, #764ba220 100%);
+            background: linear-gradient(135deg, #E3641410 0%, #FB8B2420 100%);
             border-radius: 15px;
             padding: 1.5rem;
             margin-top: 2rem;

@@ -25,7 +25,7 @@ $post = $result ? mysqli_fetch_assoc($result) : null;
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <style>
         body { 
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background: #FAF9F6;
             min-height: 100vh;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding-top: 1.5rem;
@@ -47,7 +47,7 @@ $post = $result ? mysqli_fetch_assoc($result) : null;
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, #E36414 0%, #FB8B24 100%);">
     <div class="container">
         <a class="navbar-brand" href="index.php">
             <i class="bi bi-journal-text"></i>Blogify
